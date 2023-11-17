@@ -116,7 +116,7 @@ export const experiences = [
     company_name: "SaintCoders",
     icon: saintcoders,
     iconBg: "#383E56",
-    date: "May 2023 - PRESNT",
+    date: "May 2023 - Present",
     points: [
       "learned to work on complex computer science solutions, develop scalable, distributed software systems ",
       "Applied engineering principles to solve complex problems by applying internal or industry best practices to improve technical solutio",
