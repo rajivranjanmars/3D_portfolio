@@ -25,7 +25,8 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-import threejs from './threejs.svg'    
+import threejs from './threejs.svg'  
+import eye from './eye.svg'  
 export {
     css,
     express,
@@ -54,5 +55,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    eye
 }

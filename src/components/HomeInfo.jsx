@@ -1,16 +1,27 @@
 import { Link } from "react-router-dom";
 
-import { arrow } from "../assets/icons";
+import { eye,arrow } from "../assets/icons";
 
 const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
-      <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-        Hi, I'm
-        <span className="font-semibold mx-2 text-white">Rajiv Ranjan</span>
-        👋
-        <br />A budding programmer exploring new fields of development.
-      </h1>
+      <>
+        <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
+          Hi, I'm
+          <span className="font-semibold mx-2 text-white">Rajiv Ranjan</span>
+          👋
+          <br />A budding programmer exploring new fields of development.
+          <br />
+          <br />
+          <Link
+            to="https://rajivranjanmars.github.io/portfolio-scss/assets/Rajiv_Ranjan.pdf"
+            className="neo-brutalism-white neo-btn"
+          >
+            <img src={eye} alt="arrow" className="w-4 h-4 object-contain" />
+            My Resume
+          </Link>
+        </h1>
+      </>
     );
 
   if (currentStage === 2) {
