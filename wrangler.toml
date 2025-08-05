@@ -1,0 +1,9 @@
+name = "3d-portfolio"
+compatibility_date = "2024-12-01"
+pages_build_output_dir = "dist"
+
+[env.production]
+name = "3d-portfolio"
+
+[env.preview]
+name = "3d-portfolio-preview"

@@ -1,0 +1,38 @@
+{
+  "name": "3d-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "deploy": "wrangler pages deploy dist"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@react-spring/three": "^9.7.5",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.14",
+    "vite": "^6.0.1",
+    "wrangler": "^3.88.0"
+  }
+}
