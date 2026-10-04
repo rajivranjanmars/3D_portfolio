@@ -142,3 +142,11 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 ⭐ Star this repository if you find it helpful!
+
+## Repository overview
+
+Interactive personal portfolio built with React, Three.js, React Three Fiber, and Vite. Visitors can explore an animated 3D island, browse projects and experience, and send messages through EmailJS.
+
+## Author
+
+Author: [rajivranjanmars](https://rajivranjana.in).
