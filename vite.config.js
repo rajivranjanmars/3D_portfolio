@@ -8,11 +8,13 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    rollupOptions: {
+    rolldownOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          three: ['three', '@react-three/fiber', '@react-three/drei'],
+        codeSplitting: {
+          groups: [
+            { name: 'vendor', test: /\/node_modules\/(react|react-dom)\// },
+            { name: 'three', test: /\/node_modules\/(three|@react-three\/fiber|@react-three\/drei)\// },
+          ],
         },
       },
     },
