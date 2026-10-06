@@ -8,20 +8,25 @@ import { Bird, Island, Plane, Sky } from "../models";
 
 const Home = () => {
   const audioRef = useRef(new Audio(nature));
-  audioRef.current.volume = 0.6;
-  audioRef.current.loop = true;
 
   const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState(false);
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
 
   useEffect(() => {
+    const audio = audioRef.current;
+    audio.volume = 0.6;
+    audio.loop = true;
+  }, []);
+
+  useEffect(() => {
+    const audio = audioRef.current;
     if (isPlayingMusic) {
-      audioRef.current.play();
+      audio.play();
     }
 
     return () => {
-      audioRef.current.pause();
+      audio.pause();
     };
   }, [isPlayingMusic]);
 
