@@ -149,4 +149,4 @@ Interactive personal portfolio built with React, Three.js, React Three Fiber, an
 
 ## Author
 
-Author: [rajivranjanmars](https://rajivranjana.in).
+Author: [Rajiv Ranjan](https://rajivranjan.in).
